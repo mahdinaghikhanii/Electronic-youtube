@@ -89,6 +89,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text(
+              "Test",
+              style: TextStyle(
+                  overflow: TextOverflow.fade,
+                  decoration: TextDecoration.lineThrough),
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),
